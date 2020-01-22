@@ -1,4 +1,6 @@
 # ProjectSokoban
-School project. Sokoban in JS.
+School project. Sokoban in vue.js.
 
-Made by: Fredrik, Hampus, & Martin (and Svitlana?)
+Made by: Fredrik, Hampus, & Martin
+
+original:https://github.com/Twub/ProjectSokoban
