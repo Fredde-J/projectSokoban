@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+ body {
+     margin: 0%;
+     background: url(/images/background.jpg);
+     background-size: cover;
+ }
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .sokoban{
+     display: flex;
+     margin-top: 2%;
+     background-color: black;
+    width: 90%;
+    height: 88vh;
+    color: white;
+    border-radius: 20%;
+    flex-direction: row;
+    box-shadow: 0px 0px 30px red;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+ #grid{ 
+     flex-wrap: wrap;
+     display: flex;
+     width: 100%;
+     height: 50%;
+     cursor:pointer;
+ }
+ .powerUps{
+     position: absolute;
+     justify-content: center;
+     width: 10%;
+     margin: 0;
+     padding: 0;  
+ }
+ .trapptText{
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    justify-content: center;
+    width: 10%;
+    margin: 0;
+    padding: 0; 
+    color: red;
+    font-size: 5vh;
+ }
+ 
+ .small{  /* Olika map storlekar */
+     width: 10%;
+     height: 2.5vw;
+ }
+ .medium{
+    width: 7.5%;
+    height: 2vw;
+ }
+ .large{
+    width: 5%;
+    height: 1.5vw;
+ }
+ .Player{
+     position: absolute;
+     width: 1.5%;
+  /*   margin: 2.7% 3% 3% 3.3%;  Test position */
+ }
+ #game{
+     margin-top:1px;
+     display: flex;
+     justify-content: center;
+     width: 30%;
+     
+    
+
+ }
+ #tileTest{ /* Tas bort innan inlämning */
+     width: 10%;
+     margin: auto;
+ }
+ .difficulty{
+     display: flex;
+     margin-top:1%;
+     height: 100px;
+     width: 180px;
+     font-family: 'Press Start 2P', cursive;
+     align-items: center;
+     flex-wrap: wrap;
+     
+     
+     
+ }
+ 
+ #reLoadButton,#difficultySubmit{
+     height: 3vh;
+     border:none;
+     background-color: red;
+     font-family: 'Press Start 2P', cursive;
+     font-size: 1vh;
+     cursor:pointer
+ }
+
+
+ #text{
+     color:red;
+ }
+ #arrows{
+     display:flex;
+     color: rgb(245, 34, 7);
+     font-size: 8vh ;
+     align-items: center;
+     cursor:pointer
+ }
+ #upDownArrows{
+     display:flex;
+     flex-direction: column;
+ }
+
+ 
+ #timer-content{
+     text-align: center;
+     color: white;
+     background-color: rgba(0, 0, 0, 0.7);
+     width: 150px;
+     margin-left: auto;
+     margin-right: auto;
+     box-shadow: 0px 0px 10px red;
+     border-radius: 10px;
+ }
+ #timer{
+     display: none;
+ }
+ select{
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 15px;
+    background-color: red;
+    border:none;
+    cursor:pointer
+ }
+ #start-screen{
+    font-family: 'Press Start 2P', cursive; 
+    color: red;
+    
+ }
+ #start-title{
+    font-size:4vw;
+ }
